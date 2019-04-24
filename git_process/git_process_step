@@ -1,0 +1,8 @@
+1.git clone git://github.com/aimaketheworldbetter/repository_name.git #to clone a repo to local computer
+2.update the files that need
+3.git status # to check the all the file status
+4.git add filename #add the updated file to staged
+5.git diff --staged #check the differences that between the original file and updated file
+6.git commit -m "message that you want to send to git"  #commit your changes that in stage
+7.###git remote add origin <url> #url should be http://github.com/aimaketheworldbetter/repository_name.git
+8.git push http://github.com/aimaketheworldbetter/repository_name.git
